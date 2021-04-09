@@ -6,8 +6,8 @@ O repositório apresentada a seguinte estutura
 
 | Notebook     |      Description      |   |
 |:----------|:-------------|------:|
-| [Análise exploratória dos dados](https://github.com/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb)  | Apresenta a análise preliminar sobre os dados (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb) |
-| [Solução](https://github.com/huggingface/transformers/blob/master/notebooks/05-benchmark.ipynb) | Apresenta uma modelo treinado para detectar perdas de tensão em uma linha de energia (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/05-benchmark.ipynb)|
+| [Análise exploratória dos dados](https://github.com/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb)  | Apresenta a análise preliminar sobre os dados (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb) |
+| [Solução](https://github.com/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb) | Apresenta uma modelo treinado para detectar perdas de tensão em uma linha de energia (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb)|
 | [Datasets](https://github.com/fabiobif/VoltageLoss/tree/main/datasets) | Pasta que contém os datasets criados |  |
 
 ---
