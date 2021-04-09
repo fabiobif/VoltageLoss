@@ -1,4 +1,4 @@
-# **Prova prática**: Análise de Séries Temporais para a predição de perda em Rede Elétrica
+# Análise de séries temporais para a predição de perda em rede elétrica
 
 Este notebook tem como objetivo apresentar a análise e proposta de solução (**prova prática**) para o problema descrito no processo seletivo do **Instituto Senai de Inovação em Sistemas Embarcados**, ao qual é requisito à vaga de Pesquisador em IA.
 
