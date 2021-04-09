@@ -8,7 +8,7 @@ O repositório apresentada a seguinte estutura
 |:----------|:-------------|------:|
 | [Análise exploratória dos dados](https://github.com/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb)  | Apresenta a análise preliminar sobre os dados (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb) |
 | [Solução](https://github.com/huggingface/transformers/blob/master/notebooks/05-benchmark.ipynb) | Apresenta uma modelo treinado para detectar perdas de tensão em uma linha de energia (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/transformers/blob/master/notebooks/05-benchmark.ipynb)|
-| [Dataset](https://github.com/huggingface/blog/blob/master/notebooks/03_reformer.ipynb) | Pasta que contém os datasets criados | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patrickvonplaten/blog/blob/master/notebooks/03_reformer.ipynb)|
+| [Dataset](https://github.com/fabiobif/VoltageLoss/tree/main/datasets) | Pasta que contém os datasets criados | Dados |
 
 ---
 ### Definição do problema
