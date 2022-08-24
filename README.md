@@ -1,4 +1,4 @@
-# Time series analysis for grid loss prediction
+# Time series analysis for electrical grid loss prediction
 
 This notebook aims to present the analysis and proposed solution to the problem of grid loss.
 
