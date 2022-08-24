@@ -1,15 +1,15 @@
-# Análise de séries temporais para a predição de perda em rede elétrica
+# Time series analysis for grid loss prediction
 
-Este notebook tem como objetivo apresentar a análise e proposta de solução (**prova prática**) para o problema descrito no processo seletivo do **Instituto Senai de Inovação em Sistemas Embarcados**, ao qual é requisito à vaga de Pesquisador em IA.
+This notebook aims to present the analysis and proposed solution to the problem of grid loss.
 
-O repositório apresentada a seguinte estutura
+The repository has the following structure
 
 | Notebook     |      Description      |   |
 |:----------|:-------------|------:|
-| [Análise exploratória dos dados](https://github.com/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb)  | Apresenta a análise preliminar sobre os dados (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb) |
-| [Solução](https://github.com/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb) | Apresenta uma modelo treinado para detectar perdas de tensão em uma linha de energia (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb)|
-| [Datasets](https://github.com/fabiobif/VoltageLoss/tree/main/datasets) | Pasta que contém os datasets criados |  |
+| [Exploratory Data Analysis](https://github.com/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb)  | Presents the preliminary analysis on the data (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb) |
+| [Solution](https://github.com/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb) | Presents a trained model to detect voltage losses in a power line (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb)|
+| [Datasets](https://github.com/fabiobif/VoltageLoss/tree/main/datasets) | Folder containing the created datasets |  |
 
 ---
-### Definição do problema
-> Linhas de tensão percorrem centenas de quilômetros para fornecer energia às cidades. Essas grandes distâncias tornam o trabalho de inspecionar manualmente as linhas em busca de danos uma tarefa complexa e cara. Esses danos levam a um fenômeno conhecido como descarga parcial - descargas parciais são descargas elétricas que ocorrem em defeitos no isolamento de cabos, também podem ocorrer nas suas interfaces (isolante e semicondutora) ou em emendas e terminais. Entre suas causas estão o envelhecimento dos componentes, contaminação do material isolante, falha de instalação, entre outras. As descargas parciais danificam gradativamente as linhas de tensão, portanto, se não forem reparadas, podem levar a uma queda de energia, danificar equipamentos ou provocar desastres ambientais.
+### Problem description
+> Power lines run for hundreds of kilometers to supply cities with power. These great distances make the job of manually inspecting the lines for damage a complex and expensive task. This damage leads to a phenomenon known as partial discharge - partial discharges are electrical discharges that occur from defects in the insulation of cables, they can also occur at their interfaces (insulating and semiconducting) or at splices and terminals. Among its causes are the aging of components, contamination of the insulating material, and installation failure, among others. Partial discharges gradually damage voltage lines, so if they are not repaired, they can lead to a power outage, damage equipment, or cause environmental disasters.
