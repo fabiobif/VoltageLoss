@@ -6,7 +6,7 @@ The repository has the following structure
 
 | Notebook     |      Description      |   |
 |:----------|:-------------|------:|
-| [Exploratory Data Analysis](https://github.com/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb)  | Presents the preliminary analysis on the data (notebook: Analise_SeriesTemporais_RedeEletrica)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Analise_SeriesTemporais_RedeEletrica.ipynb) |
+| [Exploratory Data Analysis](https://github.com/fabiobif/VoltageLoss/blob/main/Analysis_LossTransmission.ipynb)  | Presents the preliminary analysis on the data (notebook: Analysis_LossTransmission)  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Analysis_LossTransmission.ipynb) |
 | [Solution](https://github.com/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb) | Presents a trained model to detect voltage losses in a power line (notebook: Modelo_PredicaoFalha_Rede) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabiobif/VoltageLoss/blob/main/Modelo_PredicaoPerda_Tensao2.ipynb)|
 | [Datasets](https://github.com/fabiobif/VoltageLoss/tree/main/datasets) | Folder containing the created datasets |  |
 
