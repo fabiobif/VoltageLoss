@@ -1,6 +1,6 @@
 # Time series analysis for electrical grid loss prediction
 
-This notebook aims to present the analysis and proposed solution to the problem of grid loss.
+This notebook aims to present the analysis and proposed solution to the problem of electrical grid loss.
 
 The repository has the following structure
 
